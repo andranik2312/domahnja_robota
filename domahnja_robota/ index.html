@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Creator</title>
+</head>
+<body>
+    <h1>Створіть свого кота!</h1>
+    <form id="catForm">
+        <label for="nickname">Прізвисько:</label>
+        <input type="text" id="nickname" name="nickname">
+        <button type="submit">Створити кота</button>
+    </form>
+
+    <h3>Змінити прізвисько:</h3>
+    <form id="changeNicknameForm">
+        <input type="text" id="newNickname" placeholder="Нове прізвисько">
+        <button type="submit">Змінити прізвисько</button>
+    </form>
+
+    <h3>Дії кота:</h3>
+    <button id="catchMouseButton">Зловити мишу</button>
+    <button id="strayCatButton">Полювати (StrayCat)</button>
+
+    <h3>Дані про кота:</h3>
+    <p id="catInfo">Ще немає даних про кота.</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
