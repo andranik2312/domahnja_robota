@@ -1,0 +1,15 @@
+# Ігноруємо папку .vscode (налаштування редактора Visual Studio Code)
+.vscode/
+
+# Ігноруємо всі лог-файли
+*.log
+
+# Ігноруємо папку node_modules (якщо ти використовуєш Node.js)
+node_modules/
+
+../backups/
+./
+../new-logs/
+../old-logs/
+../src/
+
